@@ -1,0 +1,68 @@
+{
+  "name": "react-toast-notification-kit",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./styles": "./src/index.css"
+  },
+  "files": [
+    "src/components",
+    "src/context",
+    "src/hooks",
+    "src/index.js",
+    "src/index.css",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/postcss": "^4.3.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.5.2",
+    "eslint": "^10.5.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.6.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1",
+    "vite": "^8.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "keywords": [
+    "react",
+    "toast",
+    "notification",
+    "tailwind",
+    "ui",
+    "component",
+    "react-component",
+    "toast-notification"
+  ],
+  "author": "Prabash Vijayanga",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabashvijayanga/react-toast-notification-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prabashvijayanga/react-toast-notification-kit/issues"
+  },
+  "homepage": "https://github.com/prabashvijayanga/react-toast-notification-kit#readme"
+}
